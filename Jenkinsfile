@@ -18,8 +18,8 @@ pipeline {
 
     stage('Code Analysis') {
       steps {
-        // rake 'rubocop'
-        echo 'run rubocop later'
+        rake 'rubocop'
+        echo 'done'
       }
     }
 

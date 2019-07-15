@@ -25,7 +25,7 @@ Founded by the original developers of Apache Kafka, [Confluent](https://confluen
 3. Now you can start!
 
 ## Run in locally
-1. Run [Zookeeper](https://github.com/ali1dc/xd-zookeeper#run-in-locally)
+1. Run [Zookeeper](https://github.com/excellalabs/zookeeper#run-in-locally)
 2. Run Kafka locally:
     ```sh
     $ docker-compose up
@@ -65,7 +65,7 @@ Founded by the original developers of Apache Kafka, [Confluent](https://confluen
 - [Keystore](https://github.com/stelligent/keystore) for secret and configuration management
 
 ## Requirements
-1. Zookeeper; Check [this](https://github.com/ali1dc/xd-zookeeper) repository
+1. Zookeeper; Check [this](https://github.com/excellalabs/zookeeper) repository
 2. Following keystore keys are expected:
     * VPC\_ID - String VPC ID to deploy into
     * PRIVATE\_SUBNET\_1 - subnet id to deploy to
